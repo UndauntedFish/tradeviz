@@ -52,5 +52,3 @@ def generate_curve_from_rr_wr(win_loss_ratio: float, win_rate: float, num_trades
 
     # Show the plot
     plt.show()
-
-generate_curve_from_rr_wr(1.0, .5, 10000000)
