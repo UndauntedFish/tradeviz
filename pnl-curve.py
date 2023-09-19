@@ -14,7 +14,7 @@ def generate_curve_from_rr_wr(win_loss_ratio: float, win_rate: float, num_trades
 
     Returns:
         None, plots the equity curve.
-    
+
     Explanation:
         This method generates a hypothetical equity curve based on a specified reward-risk ratio.
         The equity curve is created by simulating trading returns where each data point represents either a
