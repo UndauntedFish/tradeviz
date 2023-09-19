@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def generate_curve_from_rr_wr(win_loss_ratio: float, win_rate: float, num_trades_to_simulate: int = 1000):
+def pnl_rr_wr(win_loss_ratio: float, win_rate: float, num_trades_to_simulate: int = 1000):
     """
     Generate an equity curve based on win:loss ratio and win rate.
 
